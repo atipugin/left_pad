@@ -23,7 +23,7 @@ $ bundle
 Or install it system-wide:
 
 ```shell
-$ gem install telegram-bot-ruby
+$ gem install left_pad
 ```
 
 ## Usage
