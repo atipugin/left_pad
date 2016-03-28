@@ -14,4 +14,8 @@ RSpec.describe String do
   it 'helps me so much' do
     expect(String(1).leftpad(2, '-')).to eq('-1')
   end
+
+  it 'behave as should' do
+    expect { 'foo'.leftpad('bar') }.to raise_error('no implicit conversion of String into Integer')
+  end
 end
